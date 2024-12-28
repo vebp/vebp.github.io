@@ -44,3 +44,16 @@
 	font-size: 20px;
   	font-weight: 500;
 }
+
+.gym__row{
+	margin-top: 5rem;
+}
+
+
+.gym__navbar{
+	background-color: white;
+}
+
+.gym__navbar-image{
+	width: 10rem;
+}
