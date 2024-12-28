@@ -1,4 +1,46 @@
 .separator {
 	width: 100%;
-	border-bottom: 1px solid yellow;
+	border-bottom: 2px dashed #2b87da;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.gym__subheader {
+	color: #0C71C3;
+	font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+  	font-weight: 300;
+  	font-size: 26px;
+  	letter-spacing: 1px;
+/*  	line-height: 1.7em;*/
+  	word-wrap: break-word;
+  	margin: 0;
+}
+
+.gym__header {
+	color: #ff9400;
+	font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+  	font-size: 39px;
+/*  	line-height: 1.7em;*/
+    font-weight: 500;
+  	margin: 0;
+    
+}
+
+.gym__address{
+	font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 300;
+	color: #666;
+  	line-height: 1.7em;
+  	font-size: 14px;
+}
+
+.gym__button{
+	border: 2px solid transparent;
+	padding: .3em 2em .3em .7em;
+	color: #FFFFFF !important;
+	border-radius: 40px;
+	font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif !important;
+	background-color: #ff9400;
+	font-size: 20px;
+  	font-weight: 500;
 }
