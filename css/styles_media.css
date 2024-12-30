@@ -1,0 +1,10 @@
+@media (max-width: 992px) {
+  /* Styles for screens smaller than 992px */
+  body {
+    background-color: lightgray; /* Example style */
+  }
+
+  .example-class {
+    font-size: 14px; /* Example style */
+  }
+}
