@@ -1,10 +1,56 @@
-@media (max-width: 992px) {
-  /* Styles for screens smaller than 992px */
-  body {
-    background-color: lightgray; /* Example style */
-  }
+@media (max-width: 720px) {
+  .gym__picture-band {
+    height: 20rem;
 
-  .example-class {
-    font-size: 14px; /* Example style */
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+  }
+  .gym__picture-band h1{
+  
+    font-size: 40px;
+    
   }
 }
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .gym__footer{
+    padding-left: 7rem;
+    padding-right: 7rem;
+
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .gym__footer{
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+  }
+  .gym__footer p{
+    text-align: center;
+  }
+
+  .gym__footer-div-icons{
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .gym__footer{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+  }
+
+  .gym__footer p{
+    text-align: center;
+  }
+
+  .gym__footer-div-icons{
+    text-align: center;
+  }
+
+}
+

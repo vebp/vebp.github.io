@@ -127,6 +127,9 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;  
+	word-wrap: break-word;
+
+	text-align: center;
 }
 
 .gym__picture-band h1{
@@ -143,10 +146,16 @@
 
 .gym__footer{
 	background-color: #1f1f1f;;
-	height: 5rem;
+	/*min-height: 5rem;
+	height: auto;*/
 	width: 100%;
 	padding-left: 10rem;
 	padding-right: 10rem;
+
+	min-height: 5rem;
+  	display: flex;
+  	flex-direction: column; 
+   
 
 }
 
