@@ -5,6 +5,15 @@
 	margin-bottom: 1rem;
 }
 
+.gym__section-title{
+	color: #0C71C3;
+	font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+  	font-weight: 300;
+  	font-size: 40px;
+/*  	letter-spacing: 1px;*/
+  	text-align: center;
+}
+
 .gym__subheader {
 	color: #0C71C3;
 	font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
@@ -46,8 +55,29 @@
 }
 
 .gym__row{
-	margin-top: 5rem;
-	margin-bottom: 2rem;
+	margin-top: 3.5rem;
+	margin-bottom: 3.5rem;
+}
+
+.gym__row-section-title{
+	margin-top: 2rem;
+	margin-bottom: 0;
+}
+
+.gym__navbar-wrapper{
+	flex: wrap;
+}
+
+.gym__navbar-upper-band{
+	background-color: #f2f2f2;
+	width: 100%;
+	
+	
+}
+
+.gym__navbar-upper-band ul{
+	
+	flex-direction: row-reverse;
 }
 
 
@@ -65,6 +95,25 @@
 	font-family: Open Sans,Arial,sans-serif;
 	font-weight: 600;
 
+}
+
+.gym_navbar-item2 {
+	color: black !important;
+	font-size: 14px;
+	font-weight: 600;
+	font-family: Open Sans, Arial, sans-serif;
+	padding-right: 1.5rem;
+
+}
+
+.gym__navbar-upper-band__icon{
+	color: #000;
+	font-size: 1rem;
+	padding-right: 1.5rem;
+}
+
+.gym__navbar-upper-band__nav-item-icon{
+	margin-top: 0.5rem;
 }
 
 .gym__picture-band {
@@ -116,4 +165,11 @@
 	text-align: left;
 	color: #666;
 	float: left;
+}
+
+.gym__routines__container{
+
+	background-color: #f2f2f2;
+	padding-top: 0.4rem;
+
 }
