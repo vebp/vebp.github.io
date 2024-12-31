@@ -1,14 +1,15 @@
+.admin__separator{
+	width: 100%;
+	border-bottom: 1px solid #2b87da;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+}
+
 .admin__container-adjust{
 	margin-top: 2rem;
 }
 
-.admin__list_item {
+.admin__list_item-upper-buttons {
 	margin-bottom: 1rem;
 	
-}
-
-.admin__list_item__line {
-	padding-bottom: 1rem;
-	border-bottom: 1px solid #2b87da;
-
 }
