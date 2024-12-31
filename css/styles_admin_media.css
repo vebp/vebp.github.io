@@ -1,0 +1,13 @@
+@media (max-width: 576px) {
+  .admin__list_item {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #2b87da;
+    padding-bottom: 1rem;
+  }
+
+  .admin__list_item__line {
+    
+    border-bottom: 0px solid #2b87da;
+
+  }
+}
